@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - WEB I</title>
+</head>
+<body>
+      <h1 id="titulo" onmouseover="alert('Passou aqui!')">Passe o mouse aqui.</h1>
+
+    <button id="btn-hide" onclick="alteraPagina()">Clique aqui!</button>
+
+    <br><br>
+
+    <h1 id="numero"> 0 </h1>
+    <button id="mais" onclick="somar()"> + </button>
+    <button id="menos" onclick="subtrair()"> - </button>
+    <input type="reset" onclick="zerar()" value="Limpar">
+    <br></br>
+    <input type="password" name="senha" id="senha">
+    <button id="btn-senha" onclick="mostraEscondeSenha()">Mostrar👁️‍🗨️</button>
+    <br>
+
+    <input type="color" name="cor" id="cor" onchange="mudaCor()">
+
+    
+
+    <script>
+        const cor = document.getElementById("cor")
+        const campoSenha = document.getElementById("senha")
+        const btnsenha = document.getElementById("btn-senha")
+        const numero = document.getElementById("numero")
+        const titulo = document.getElementById("titulo")
+        const btnHide = document.getElementById("btn-hide")
+
+        function mudaCor()
+        {
+            document.body.style.backgroundColor = cor.value
+        }
+
+        function mostraEscondeSenha()
+        {
+         if(campoSenha.type == "password")
+         {
+            campoSenha.type = "text"
+            btnsenha.innerHTML = "Esconder 🔒"
+         }
+         else
+         {
+            campoSenha.type = "password"
+            btnsenha.innerHTML = "Mostrar 👁️‍🗨️"
+         }
+        }
+
+        var num = 0
+
+        function somar() 
+        {
+            num++
+            numero.innerHTML = num
+        }
+
+        function subtrair() 
+        {
+            num--
+            numero.innerHTML = num
+        }
+
+        function zerar()
+        {
+            num = 0
+            numero.innerHTML = num
+        }
+
+        function alteraPagina() 
+        {
+            titulo.style.display = "none"
+            btnHide.innerHTML = "Bem mandado..."
+        }
+
+    /*
+    alert("Seja bem vindo!")
+
+    if (confirm("Deseja receber seu prémio?"))
+    {
+        window.location.href = "https://bet365.bet.br"
+    }
+    else
+    {
+        alert("ah...que pena!")
+    }
+//////////////////////////////////////////////////////////////
+
+    var resposta = prompt
+    (
+        "Qual é o verdadeiro nome do Silvio santos?"
+    )
+
+    console.log(resposta)
+
+    if(resposta == "Seveirivaldo")
+    {
+     if( confirm("Acertou🎉 Deseja recerber seu premio?") )
+     {
+        window.location.href = "https://bet365.bet.br"
+     }
+     else
+     {
+        alert("Vai a Merda!")
+     }
+    }
+    else
+    {
+        alert("Não consegue, né?")
+    }
+    */
+   
+    </script>
+</body>
+</html>

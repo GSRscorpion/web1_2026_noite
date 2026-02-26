@@ -1,0 +1,28 @@
+body
+{
+    background-color: #ced8da;
+}
+#titulo
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e2b901;
+    border: solid 10px #2b2420;
+    border-radius: 30px;
+    box-sizing: content-box;
+    background-color: #368153;
+    width: 300px;
+}
+#btn-hide,#mais,#menos,#btn-senha,#senha,#numero,input
+{
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #e2b901;
+    border: solid 10px #2b2420;
+    border-radius: 30px;
+    box-sizing: content-box;
+    background-color: #368153;
+    width: 120px;
+}

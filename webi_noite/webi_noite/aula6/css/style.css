@@ -1,0 +1,222 @@
+main
+{
+    background-color: #b4ceceab;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e72020ab;
+    font-weight: 800;
+    font-size: large;
+}
+
+header
+{
+    background-color: #998888b4;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d36600ab;
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+nav
+{
+    background-color: #a885b1;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffe600c7;
+    font-weight: 700;
+    font-size: xx-small;
+}
+
+aside
+{
+    background-color: #354e38;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6ee909ab;
+    font-weight: 400;
+    font-size: smaller;
+}
+
+article
+{
+    background-color: #473131;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1bff39ab;
+    font-weight: 800;
+    font-size: small;
+}
+
+section
+{
+    background-color: #3b4155;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00ffb3e5;
+    font-weight: 200;
+    font-size: medium;
+}
+
+figure
+{
+    background-color: #57a58b;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00eeffb2;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+footer
+{
+    background-color: #792a41;
+    padding: 20px;
+    font-family: fantasy;
+    color: #0014c4;
+    font-weight: 50;
+    font-size: larger;
+}
+
+#form
+{
+    background-color: #2a4e7c;
+    padding: 20px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #ff0000ab;
+    font-weight: 900;
+    font-size: large;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container do formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs de texto, número e data */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Efeito ao focar */
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    border-color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 5px rgba(78, 115, 223, 0.5);
+}
+
+/* Checkbox e radio */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* Títulos das seções */
+span {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="reset"] {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Botão Enviar */
+input[type="submit"] {
+    background-color: #1cc88a;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #17a673;
+}
+
+/* Botão Limpar */
+input[type="reset"] {
+    background-color: #e74a3b;
+    color: white;
+    margin-left: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+/* Link */
+a {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.link-voltar {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #4e73df;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
+}

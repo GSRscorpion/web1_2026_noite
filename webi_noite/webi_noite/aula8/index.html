@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento JS</title>
+</head>
+<body>
+    <main>
+        <h1>Treinamento JS</h1>
+
+        <label for="numero">
+            Digite 10 Números
+        </label>
+
+        <input type="number" name="numero" id="numero" placeholder="0000000000">
+
+        <button id="btn-add">➕</button>
+
+        <small id="txt-contar">
+            Restam 10 Números
+        </small>
+
+        <label for="inseridos">
+            Números inseridos
+        </label>
+
+        <select name="inseridos" id="inseridos">
+            <option value="" id="opt1">
+                Insira um número
+            </option>
+        </select>
+        <button id="btn-apaga">🗑️</button>
+
+        <ul>
+            <li>Primeiro número inserido: <span id="primeiro">0</span> </li>
+            <li>Ultimo número inserido: <span id="ultimo">0</span> </li>
+            <li>Soma de todos os números: <span id="soma">0</span> </li>
+            <li>Maior número inserido: <span id="maior">0</span> </li>
+            <li>Menor número inserido: <span id="menor">0</span> </li>
+        </ul>
+        <div id="box-btn">
+            <button id="btn-finalizar">Finalizar ✅</button>
+            <button id="btn-reiniciar">Reiniciar ♻️</button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

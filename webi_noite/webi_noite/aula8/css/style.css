@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&family=Dancing+Script:wght@400..700&display=swap');
+
+@media (max-width: 600px)
+{
+    main
+    {
+        width: 90%;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    body
+    {
+        background-color: #ffde21;
+    }
+}
+
+body
+{
+    background-color: #e0f4f7;
+}
+main
+{
+    background-color: #92bcfa;
+    width: 50%;
+    padding: 5px 20px 20px 20px;
+    box-shadow: 8px 8px 30px black;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: solid #1c1464b9 5px;
+    border-radius: 30px 30px 30px 30px;
+}
+h1
+{
+    font-family: "Betania Patmos", cursive; 
+    color: #ffde21;
+    text-align: center;
+}
+label
+{
+    font-family: "Betania Patmos", cursive; 
+    display: block;
+    font-weight: 700;
+    font-size: large;
+    color: #ffde21;
+}
+#txt-contar
+{
+    font-family: "Betania Patmos", cursive; 
+    font-weight: 700;
+    font-size: large;
+    color: #ffde21;
+}
+input,select
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border: #ffde21 solid;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: large;
+    color: #ffde21;
+    background-color: #46328f;
+}
+button
+{
+    cursor: pointer;
+}
+small
+{
+    display: block;
+    color: #ffde21;
+    margin-bottom: 10px;
+}
+#inseridos
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    color: #ffde21;
+    background-color: #46328f;
+}
+ul
+{
+    font-family: "Betania Patmos", cursive; 
+    font-weight: 700;
+    font-size: large;
+    color: #ffde21;
+}
+span
+{
+    font-size: 20pt;
+    color:#46328f ;
+}
+#btn-add
+{
+    border: solid #46328f;
+    background-color: #ffde21;
+    border-radius: 40px 40px 40px 40px;
+    width: 40px;
+}
+#btn-apaga
+{
+
+    border: solid #46328f;
+    background-color: #ffde21;
+    border-radius: 40px 40px 40px 40px;
+    width: 40px;
+}
+#btn-finalizar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #46328f;
+    font-size: medium;
+    border: solid #46328f 5px;
+    background-color: #ffde21;
+    border-radius: 40px 40px 40px 40px;
+}
+#btn-reiniciar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #46328f;
+    font-size: medium;
+    border: solid #46328f 5px;
+    background-color: #ffde21;
+    border-radius: 40px 40px 40px 40px;
+}

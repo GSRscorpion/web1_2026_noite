@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web I - CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #L1
+        {
+            color: #23d33b;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        #L1:hover
+        {
+            font-size: 30pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #0cc1ce;
+            transition: 0.3s;
+        }
+        #L1:active
+        {
+            background-color: #1906bd;
+            color: #ce0c46;
+            border: #23d33b 2px solid;
+            border-radius: 15px 15px 15px 15px;
+        }
+        .L2
+        {
+            color: #c7d323;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .L2:hover
+        {
+            font-size: 30pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ce730c;
+            transition: 0.3s;
+        }
+        .L2:active
+        {
+            background-color: #bd065b;
+            color: #910cce;
+            border: #d3237b 2px solid;
+            border-radius: 15px 15px 15px 15px;
+        }
+        #L3
+        {
+            color: #370075;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        #L3:hover
+        {
+            font-size: 30pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fc0000;
+            transition: 0.3s;
+        }
+        #L3:active
+        {
+            background-color: #6254db;
+            color: #0f0cce;
+            border: #c48806 2px solid;
+            border-radius: 15px 15px 15px 15px;
+        }
+        .icon
+        {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: solid  10px transparent;
+            background: linear-gradient(45deg, #dfc905, #5206aa, #d40d49) border-box;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #menu
+        {
+           background-color: #2bbd06;
+           display: flex;
+           justify-content: center;
+           gap: 20px;
+           height: 50px;
+           align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div><a id="L1" href="#1">Link 1 </a></div>
+        <div><a class="L2" href="#2">Link 2 </a></div>
+        <div><a id="L3" href="#3">Link 3 </a></div>
+    </div>
+    <img class="icon" src="img/goremagala.png" alt="monster icon">
+</body>
+</html>
