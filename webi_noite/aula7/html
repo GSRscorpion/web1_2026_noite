@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - WEB I</title>
+</head>
+<body>
+    <h1 id="titulo" onmouseover="alert('Passou aqui!')">Passe o mouse aqui.</h1>
+
+    <button id="btn-hide" onclick="alteraPagina()">Clique aqui!</button>
+
+    <br><br>
+
+    <h1 id="numero"> 0 </h1>
+    <button id="mais" onclick="somar()"> + </button>
+    <button id="menos" onclick="subtrair()"> - </button>
+
+    <script>
+        const numero = document.getElementById("numero")
+        const titulo = document.getElementById("titulo")
+        const btnHide = document.getElementById("btn-hide")
+
+        var num = 0
+
+        function somar() {
+            num++
+            numero.innerHTML = num
+        }
+
+        function subtrair() {
+            num--
+            numero.innerHTML = num
+        }
+
+        function alteraPagina() {
+            titulo.style.color = "blue"
+            btnHide.innerHTML = "Bem mandado..."
+        }
+
+
+
+        /*
+        alert("Seja bem vindo!")
+
+        if( confirm("Deseja receber seu prêmio?") ) {
+            window.location.href = "https://bet365.bet.br"
+        } else {
+            alert("Ah...que pena!")
+        }
+
+        var resposta = prompt(
+            "Qual é o verdadeiro nome do Silvio Santos?"
+        )
+
+        console.log(resposta)
+
+        if( resposta.toUpperCase() == "SENOR ABRAVANEL" ) {
+            if( confirm("Acertou! ✅ Deseja receber seu prêmio?") ) {
+                window.location.href = "https://kto.bet.bt"
+            } else {
+                alert("Tá bom então!")
+            }
+        } else {
+            alert("Não consegue, né?")
+        }
+        */
+
+
+    </script>
