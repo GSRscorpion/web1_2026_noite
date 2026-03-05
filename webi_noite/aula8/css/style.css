@@ -19,18 +19,14 @@ body
 {
     background-color: #e0f4f7;
 }
-main
-{
+main {
     background-color: #92bcfa;
     width: 50%;
     padding: 5px 20px 20px 20px;
     box-shadow: 8px 8px 30px black;
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    margin: 50px auto; /* centraliza */
     border: solid #1c1464b9 5px;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px;
 }
 h1
 {
@@ -53,7 +49,7 @@ label
     font-size: large;
     color: #ffde21;
 }
-input,select,option
+input,select
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
@@ -87,6 +83,7 @@ small
     font-size: large;
     color: #46328f;
     background-color: #ffde21;
+    border: solid #46328f;
 }
 ul
 {
@@ -149,3 +146,20 @@ span
     background-color: #ffde21;
     border-radius: 40px 40px 40px 40px;
 }
+
+
+
+
+body 
+{
+    overflow-y: scroll;   
+}
+
+#inseridos option:checked 
+{
+    background-color: #46328f;
+    color: #ffde21;
+    border: #34285f solid;
+
+}
+
