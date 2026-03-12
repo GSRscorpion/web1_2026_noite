@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+
+  <!-- cabo -->
+  <rect x="118" y="110" width="20" height="110" rx="6" fill="#3b2a1a"></rect>
+  <rect x="118" y="110" width="20" height="110" rx="6" fill="none" stroke="#1a120a" stroke-width="3"></rect>
+
+  <!-- couro do cabo -->
+  <line x1="118" y1="140" x2="138" y2="140" stroke="#1a120a" stroke-width="3"></line>
+  <line x1="118" y1="165" x2="138" y2="165" stroke="#1a120a" stroke-width="3"></line>
+  <line x1="118" y1="190" x2="138" y2="190" stroke="#1a120a" stroke-width="3"></line>
+
+  <!-- cabeça do martelo -->
+  <rect x="60" y="50" width="136" height="60" rx="8" fill="#3a3a3a"></rect>
+  <rect x="60" y="50" width="136" height="60" rx="8" fill="none" stroke="#111" stroke-width="5"></rect>
+
+  <!-- placa central -->
+  <rect x="105" y="60" width="46" height="40" rx="4" fill="#222"></rect>
+
+  <!-- runa demoníaca -->
+  <path d="M118 90 L128 70 L138 90 Z" fill="#b30000"></path>
+
+  <!-- espinhos -->
+  <polygon points="60,70 45,80 60,90" fill="#222"></polygon>
+  <polygon points="196,70 211,80 196,90" fill="#222"></polygon>
+
+  <!-- rebites -->
+  <circle cx="80" cy="80" r="4" fill="#111"></circle>
+  <circle cx="176" cy="80" r="4" fill="#111"></circle>
+
+</svg>
